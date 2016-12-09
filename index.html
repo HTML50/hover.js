@@ -4,6 +4,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style>
 @import 'https://fonts.googleapis.com/css?family=Comfortaa:700';
+
 body{
 background:#fff;
 color:#000;
@@ -34,6 +35,14 @@ position:relative;
 background:#ccc;
 }
 
+.test:hover:after{
+	opacity:1;
+	visibility: visible;
+	transform: translate3d(0,0,0);
+}
+
+</style>
+<style id='styleId'>
 .hoverJs:after{
   content: "";
   position: absolute;
@@ -43,24 +52,10 @@ background:#ccc;
   right: 0;
   background-color: rgba(0,0,0,.2);
   visibility: hidden;
-  //transform: translate3d(30%,-60%,0);
-  transition: all 0.3s ease-in-out;
-  opacity:0;
+  transform: translate3d(10%,-100%,0);
+  opacity:1;
+  transition: all 150ms ease-in-out;
 }
-
-//.hoverJs:hover:after{
-	opacity:1;
-	visibility: visible;
-	transform: translate3d(0,0,0);
-}
-
-
-.test:hover:after{
-	opacity:1;
-	visibility: visible;
-	transform: translate3d(0,0,0);
-}
-
 </style>
 
 </head>
