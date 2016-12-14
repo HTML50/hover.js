@@ -22,58 +22,23 @@ font-size:2em;
 }
 
 
-
 a{
 color:#ec3636;
-transition:all .25s;
 }
 
-#test {
-position:relative;
-background:#ccc;
-}
 
-.hoverJs {
-position:relative;
-background:#ccc;
-}
 
-.test:hover:after{
-	opacity:1;
-	visibility: visible;
-	transform: translate3d(0,0,0);
-}
-
-</style>
-<style id='styleId'>
-.hoverJs:after{
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  right: 0;
-  background-color: rgba(0,0,0,.2);
-  visibility: hidden;
-  transform: translate3d(10%,-100%,0);
-  opacity:1;
-  transition: all 150ms ease-in-out;
-}
 </style>
 
 </head>
 <body>
 <div id='container'>
 <p>here is a demo paragraph which contains several A tags, and you can see the effect.</p>
-<p><a href='#' class='hoverJs' id='test'>This</a> is the first one.</p>
-<p><a href='#' class='hoverJs'>Another</a> one.</p>
-<div id=''></div>
+<p><a href='#' class='hoverJs' id='test'>This</a> is the first link.</p>
+<p><a href='#' class='hoverJs'>Another</a> link.</p>
+<p>an image for test<img src='2byte.png' class='hoverJs' width='200px' height='200px'></p>
 </div>
 <a href="https://github.com/HTML50/hover.js"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/52760788cde945287fbb584134c4cbc2bc36f904/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f77686974655f6666666666662e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png"></a>
-
-<script>
-
-</script>
 <script src="hover.js"></script>
 </body>
 </html>
