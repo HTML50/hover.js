@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style>
-@import 'https://fonts.googleapis.com/css?family=Comfortaa:700';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700';
 *{
 margin:0;
 padding:0; 
@@ -11,34 +11,56 @@ padding:0;
 
 body{
 background:#fff;
-color:#000;
-font:155%/1.6  'Comfortaa', cursive, sans-serif;
+color:#535353;
+font:155%/1.6  'Open Sans Condensed', cursive, sans-serif;
 }
 
 #container{
 margin:100px auto;
-width:800px;
+width:900px;
 font-size:2em;
 }
-
 
 a{
 color:#ec3636;
 }
 
+.item {
+width: 300px;
+height: 300px;
+display: inline-block;
+}
 
-
+.demo{
+height:1200px;
+line-height: 0;
+}
 </style>
 
 </head>
 <body>
 <div id='container'>
+<h1><span class='hoverJs'>Hover.js</span></h1>
+<h3><span class='hoverJs'>360</span> <span class='hoverJs'>degree</span> <span class='hoverJs'>direction</span> <span class='hoverJs'>aware</span> <span class='hoverJs'>animation</span> <span class='hoverJs'>for</span> <span class='hoverJs'>any</span> <span class='hoverJs'>elements</span></h3>
+<hr><br>
 <p>here is a demo paragraph which contains several A tags, and you can see the effect.</p>
 <p><a href='#' class='hoverJs' id='test'>This</a> is the first link.</p>
 <p><a href='#' class='hoverJs'>Another</a> link.</p>
-<p>an image for test<img src='2byte.png' class='hoverJs' width='200px' height='200px'></p>
+<br><hr><br>
+<p><img src='2byte.png' class='hoverJs' width='250px' height='250px' style='float:left'>a png format image. You can set the z-index value of img to get the it on top.</p>
+<div style='clear:both'></div>
+<br><hr><br>
+few blocks with self-defined data.
+<div class="demo">
+<div class="item hoverJs" data-hoverJs="#ff96b0" style="background-color: rgb(255, 150, 176);"></div><div class="item hoverJs" data-hoverJs="#76dee8" style="background-color: rgb(118, 222, 232);"></div><div class="item hoverJs" data-hoverJs="#c4fffe" style="background-color: rgb(196, 255, 254);"></div><div class="item hoverJs" data-hoverJs="#96f7a3" style="background-color: rgb(150, 247, 163);"></div><div class="item hoverJs" data-hoverJs="#93e0f9" style="background-color: rgb(147, 224, 249);"></div><div class="item hoverJs" data-hoverJs="#649adb" style="background-color: rgb(100, 154, 219);"></div><div class="item hoverJs" data-hoverJs="#96a6f7" style="background-color: rgb(150, 166, 247);"></div><div class="item hoverJs" data-hoverJs="#f9acbb" style="background-color: rgb(249, 172, 187);"></div><div class="item hoverJs" data-hoverJs="#996de0" style="background-color: rgb(153, 109, 224);"></div><div class="item hoverJs" data-hoverJs="#f7b5af" style="background-color: rgb(247, 181, 175);"></div><div class="item hoverJs" data-hoverJs="#a9f1f9" style="background-color: rgb(169, 241, 249);"></div><div class="item hoverJs" data-hoverJs="#f998db" style="background-color: rgb(249, 152, 219);"></div></div>
+
+<br><hr><br>
+very easy to use.
+read more on my <a href="https://github.com/HTML50/hover.js" class='hoverJs'>github</a>
 </div>
-<a href="https://github.com/HTML50/hover.js"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/52760788cde945287fbb584134c4cbc2bc36f904/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f77686974655f6666666666662e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_white_ffffff.png"></a>
+
+
+<a href="https://github.com/HTML50/hover.js"><img style="position: absolute; top: 0; right: 0; border: 0;" src="fork.png"></a>
 <script src="hover.js"></script>
 </body>
 </html>
