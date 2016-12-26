@@ -5,7 +5,14 @@
 ## Installation
 
 ```javascript
+//put it in the bottom of body area
 <script src ="hover.js"></script>
+
+//add class 'hoverJs' for anything you want
+<element  class='hoverJs'></element>
+
+//if you want to add a description, add a 'data-hoverJs'
+<div class="hoverJs" data-hoverJs="this is test text" style="background-color:#000;"></div>
 ```
 
 ## DEMO
